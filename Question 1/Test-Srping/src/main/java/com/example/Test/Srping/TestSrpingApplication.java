@@ -51,4 +51,16 @@ public class TestSrpingApplication implements CommandLineRunner{
 		System.out.println("Count: " + count);
 		System.out.println("Categories: " + categories);
 	}
+	/*
+	Q. what are the key things you would consider when creating/consuming an API to ensure that it is secure and reliable?
+	Ans:- Some of the Key things we should keep in mind are
+	1. Documentation of our Api
+	2. Authentication and Authorization should be managed to restrict the use of api.
+	3. Security: the API we Created should be Secure.
+	4. Encrypted: The data transfer happening during the api get,put,post,delete should be encrypted so that
+	no one can see what type of data we are transferring.
+
+	So these are some of the points according to me that should be followed when working with Apis.
+
+	 */
 }
